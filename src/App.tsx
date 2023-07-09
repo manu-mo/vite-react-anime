@@ -17,9 +17,13 @@ const router = createBrowserRouter([
     element: <DetailPage />,
   },
   {
+    path: "/:animeId",
+    element: <DetailPage />,
+  },
+  {
     path: '*',
     element: <h1 style={{ margin: '20%' }}>The Page Doesn't Exist</h1>
-  }
+  },
 ]);
 
 
